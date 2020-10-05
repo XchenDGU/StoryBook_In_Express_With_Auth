@@ -1,0 +1,11 @@
+<h2>You have successfully Registered!</h2>
+<div class="divider"></div>
+
+<h5>Please check your email to verify the account</h5>
+<form id="resendForm" action="/signup/resend" method="POST">
+<input type="hidden" name ="userId" value="{{userId}}">
+</form>
+<p>Didn't receive the email?<a href="javascript:;" onclick="document.getElementById('resendForm').submit()"> Resend email</a></p>
+<div class="section">
+    <h6>Return to<a href="/"> log in</a> page. </h6>
+</div>

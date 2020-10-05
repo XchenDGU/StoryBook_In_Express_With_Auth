@@ -1,0 +1,35 @@
+<h3><i class="fas fa-book-reader"></i>StoryBooks</h3>
+<div class="section">
+    <p class="lead">Create public and private stories from your life</p>
+</div>
+
+<div class="row">
+    <form action="/auth/login" method="post" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="username" name="username" required>
+                <label for="username">Username</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field">
+                <input type="password" id="password" name="password" required>
+                <label for="password">Password</label>
+            </div>
+        </div>
+        <div class="row">
+            <input style="width: 100%;" type="submit" class="btn blue" value="Log in">
+        </div>
+    </form>
+</div>
+<h6><a href="/passwordrecover">Forget your password?</a></h6>
+<div class="divider"></div>
+<div class="section">
+    <a style="width: 90%;margin-bottom:10px" href="/auth/google" class="btn red darken-1">
+        <i class="fab fa-google left"> Log In With Google</i>
+    </a>
+    <a style="width: 90%;" href="/auth/facebook" class="btn blue darken-1">
+        <i class="fab fa-facebook-square left"> Log In With Facebook</i>
+    </a>
+    <h6> Need an account?<a href="/signup">Sign up</a></h6>
+</div>

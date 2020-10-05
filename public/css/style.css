@@ -1,0 +1,38 @@
+p{
+    margin:10px 0 !important;
+}
+
+.login-container{
+    width: 400px;
+    margin-top:50px;
+    text-align: center;
+}
+
+.fa-small{
+    font-size: 16px !important;
+}
+
+.btn-float{
+    float:left;
+    margin-right: 10px;
+}
+
+.img-small{
+    width: 180px;
+}
+
+.img-tiny{
+    width: 50px;
+}
+
+.comment-img{
+    float: left !important;
+    margin-right: 10px;
+}
+
+#toast-container {
+    top: 0% !important;   
+    right: 0% !important;
+    margin:0 10px;
+
+}
